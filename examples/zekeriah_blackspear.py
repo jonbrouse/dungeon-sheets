@@ -66,7 +66,10 @@ flaws = """Once I pick a goal, I become obsessed with it to the
            detriment of everything else in my life."""
 
 features_and_traits = (
-        """*Observant (feat)*  +5 to passive perception and passive investigation. If you can see a creature's mouth while it is speaking a language you understand, you can read its lips.
-        *Domain* Grave
-        *Circle of Mortality* when restoring HP of a creature at 0 HP, instead of rolling, use highest value of each die (spare dying with 30 ft bonus
-        *Eyes of the Grave* as action, until end of next turn, know location of undead within 60 ft. (doesn't reveal capabilities or identity) (3 per rest)""")
+        """Domain: Grave
+
+Observant (feat):  +5 to passive perception and passive investigation. If you can see a creature's mouth while it is speaking a language you understand, you can read its lips.
+
+Circle of Mortality: when restoring HP of a creature at 0 HP, instead of rolling, use highest value of each die (spare dying with 30 ft bonus
+
+Eyes of the Grave: as an action, until end of next turn, know location of undead within 60 ft. (doesn't reveal capabilities or identity) (3 per rest)""")
