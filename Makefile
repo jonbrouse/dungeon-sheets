@@ -11,4 +11,5 @@ sheet:
 	@[ ! -z $(character) ] || { echo "ERROR: \"character\" variable was not set.\n\n" && make help && exit 1; }
 	CHARACTER=$(character) docker-compose up
 
-
+build:
+	docker-compose build
