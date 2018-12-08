@@ -45,12 +45,12 @@ equipment = (
           A Waterskin""")
 
 # List of known spells
-#spells = ('spare the dying', 'guidance' )
-spells = ('false life', 'blindness deafness' )
+spells = ('spare the dying', 'guidance', 'toll the dead', 'thaumaturgy',
+          'bane', 'command', 'cure wounds', 'detect magic', 'false life',
+          'healing word',)
 
 # Which spells have been prepared (not including cantrips)
-spells_prepared = ('blindness deafness', 'false life', 'mage armor',
-                   'ray of sickness', 'shield', 'sleep',)
+spells_prepared = ('bane', 'command', 'cure wounds', 'detect magic' )
 
 # Backstory
 personality_traits = """I am tolerant of other faiths and respect the worship
