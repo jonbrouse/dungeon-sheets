@@ -275,7 +275,7 @@ def create_character_pdf(character, basename, flatten=False):
         'Ideals': text_box(character.ideals),
         'Bonds': text_box(character.bonds),
         'Flaws': text_box(character.flaws),
-        'Features and Traits': text_box(character.features_and_traits),
+        'Features and Traits': character.features_and_traits,
         # Inventory
         'CP': character.cp,
         'SP': character.sp,
@@ -335,7 +335,7 @@ def create_character_pdf(character, basename, flatten=False):
     attack_str += '\n\r'
     attack_str += f'Shield: {character.shield}'
     attack_str += character.attacks_and_spellcasting
-    fields['AttacksSpellcasting'] = text_box(attack_str)
+    fields['AttacksSpellcasting'] = attack_str
     # Other proficiencies and languages
     prof_text = "Proficiencies:\n" + text_box(character.proficiencies_text)
     prof_text += "\n\nLanguages:\n" + text_box(character.languages)
