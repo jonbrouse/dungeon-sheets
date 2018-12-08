@@ -2,7 +2,7 @@ FROM python:3.7-alpine
 
 RUN apk add --no-cache pdftk texlive
 
-WORKDIR /tmp
+WORKDIR /app/dragon-sheets
 
 COPY ./ ./
 
