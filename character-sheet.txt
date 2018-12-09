@@ -1,0 +1,4 @@
+Attaching to dungeon-sheets_dungeonsheets_1
+[36mdungeonsheets_1  |[0m Done.  Input errors, so no output created.
+[36mdungeon-sheets_dungeonsheets_1 exited with code 1
+[0m

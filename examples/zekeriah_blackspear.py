@@ -11,6 +11,7 @@ alignment = 'Neutral-Good'
 xp = 0
 hp_max = 10
 
+
 # Ability Scores
 strength = 12
 dexterity = 12
@@ -73,3 +74,34 @@ Observant (feat):  +5 to passive perception and passive investigation. If you ca
 Circle of Mortality: when restoring HP of a creature at 0 HP, instead of rolling, use highest value of each die (spare dying with 30 ft bonus
 
 Eyes of the Grave: as an action, until end of next turn, know location of undead within 60 ft. (doesn't reveal capabilities or identity) (3 per rest)""")
+
+# Character Details
+age = 38
+weight = 210
+eyes = Brown
+skin = White
+hair = Black/Grey
+backstory = """Born at home in a small town (Nesme) to a poor family.
+
+2 siblings
+- Finnus (older brother): killed in battle (couldn't save him)
+- Kirian (younger brother): explorer, left home after the war and never returned
+
+Single mother. Father was a criminal who left just after Kirian was born.
+---
+- Moved around a lot, spent a lot of time in the temple as a child
+- An impassioned serman on the balance between life and death struck a deep chord in my sould and moved me to serve the faith
+- My mother was on the brink of death. My prayers save her, so I beacame a cleric.
+"""
+# Allies and Organizations
+allies = """Whorshipper of Kelemvor
+- Lord of the Dead
+- Judge of the Damned
+- Master of the Crystal Spire
+"""
+
+faction_name = ''
+additonal_features_and_traits = ''
+treasure = """
+- receipt of deposit at a bank in a far-flung city
+"""

@@ -5,5 +5,7 @@ services:
     build: ./
     volumes:
       - ./examples:/examples
-    command: -e ${CHARACTER}.py
-    entrypoint: makesheets 
+    #command: -e ${CHARACTER}.py
+    #entrypoint: makesheets 
+    command: blank-character-sheet-default.pdf dump_data_fields
+    entrypoint: pdftk 

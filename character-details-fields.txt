@@ -1,0 +1,45 @@
+Character Details
+---
+FieldType: Text
+FieldName: CharacterName 2
+---
+FieldType: Text
+FieldName: Age
+---
+FieldType: Text
+FieldName: Height
+---
+FieldType: Text
+FieldName: Weight
+---
+FieldType: Text
+FieldName: Eyes
+---
+FieldType: Text
+FieldName: Skin
+---
+FieldType: Text
+FieldName: Hair
+
+
+---
+FieldType: Button
+FieldName: Faction Symbol Image
+---
+FieldType: Text
+FieldName: Allies
+---
+FieldType: Text
+FieldName: FactionName
+---
+FieldType: Text
+FieldName: Backstory
+---
+FieldType: Text
+FieldName: Feat+Traits
+---
+FieldType: Text
+FieldName: Treasure
+---
+FieldType: Button
+FieldName: CHARACTER IMAGE
