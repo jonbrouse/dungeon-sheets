@@ -94,7 +94,7 @@ Single mother. Father was a criminal who left just after Kirian was born.
 - My mother was on the brink of death. My prayers save her, so I beacame a cleric.
 """
 # Allies and Organizations
-allies = """Whorshipper of Kelemvor
+allies = """Worshipper of Kelemvor
 - Lord of the Dead
 - Judge of the Damned
 - Master of the Crystal Spire
