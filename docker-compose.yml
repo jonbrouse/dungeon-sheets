@@ -4,6 +4,6 @@ services:
   dungeonsheets:
     build: ./
     volumes:
-      - ./examples:/examples
+      - ./brouse:/examples
     command: -e ${CHARACTER}.py
     entrypoint: makesheets 
