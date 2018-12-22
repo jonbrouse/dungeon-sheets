@@ -2175,6 +2175,23 @@ class Etherealness(Spell):
     classes = ()
 
 
+class ExpeditiousRetreat(Spell):
+    """This spell allows you to move at an incredible pace. When you 
+    cast this spell, and then as a bonus action on each of your turns
+    until the spell ends, you can take the Dash action.
+
+    """
+    name = "Expeditious Retreat"
+    level = 1
+    casting_time = "1 bonus action"
+    casting_range = "Self"
+    components = ('V', 'S',)
+    materials = ""
+    duration = "Concentration, up to 10 minutes"
+    magic_school = "Transmutation"
+    classes = ('Sorceror', 'Warlock', 'Wizard', )
+
+
 class Eyebite(Spell):
     """For the spell's duration, your eyes become an inky void imbued with
     dread power. One creature of your choice within 60 feet of you
@@ -2230,6 +2247,52 @@ class FalseLife(Spell):
     duration = "1 hour"
     magic_school = "Necromancy"
     classes = ('Sorceror', 'Wizard', )
+
+
+class FindFamiliar(Spell):
+    """You gain the service of a familiar, a spirit that takes an animal form
+    you choose: bat, cat, crab, frog (toad), hawk. lizard, octopus, owl, poisonous
+    snake, fish (quipper), rat, raven, sea horse, spider, or weasel. Appearing in
+    an unoccupied space within range, the familiar has the statistics of the chosen
+    form, though it is a celestial, fey or fiend (your choice) instead of a beast. 
+
+    Your familiar acts independently of you, but it always obeys your commands. In
+    combat, it rolls its own initiative and acts on its own turn. A familiar can’t
+    attack, but it can take other actions as normal. 
+    
+    When the familiar drops to 0 hit points, it disappears, leaving behind no
+    physical form. It reappears after you cast this spell again. 
+    
+    While your familiar is within 100 feet of you, you can communicate with it
+    telepathically. Additionally, as an action, you can see through your familiar’s
+    eyes and hear what it hears until the start of your next turn, gaining the
+    benefits of any special senses that the familiar has. During this time, you are
+    deaf and blind with regard to your own senses. 
+    
+    As an action, you can temporarily dismiss your familiar. It disappears into a
+    pocket dimension where it awaits you summons. Alternatively, you can dismiss it
+    forever. As an action while it is temporarily dismissed, you can cause it to
+    reappear in any unoccupied space within 30 feet of you. 
+    
+    You can’t have more than one familiar at a time. If you cast this spell while
+    you already have a familiar, you instead cause it to adopt a new form. Choose
+    one of the forms from the above list. Your familiar transforms into the chosen
+    creature. 
+    
+    Finally, when you cast a spell with a range of touch, your familiar can deliver
+    the spell as if it had cast the spell. Your familiar must be within 100 feet of
+    you, and it must use its reaction to deliver the spell when you cast it. If the
+    spell requires an attack roll, you use your attack modifier for the roll.
+
+    """
+    name = " Find Familiar"
+    level = 1
+    casting_time = "1 hour"
+    components = ('V', 'S', 'M')
+    materials = "10 gp worth of charcoal, incense, and herbs that must be consumed by fire in a brass brazier"
+    duration = "Instantaneous"
+    magic_school = "Conjuration"
+    classes = ('Wizard',)
 
 
 class FindThePath(Spell):
@@ -2581,6 +2644,26 @@ class GlobeOfInvulnerability(Spell):
     duration = "Concentration, up to 1 minute"
     magic_school = "Abjuration"
     classes = ()
+
+
+class Grease(Spell):
+    """Slick grease covers the ground in a 10-foot square centered on a point
+    within range and turns it into difficult terrain for the duration.
+    
+    When the grease appears, each creature standing in its area must succeed on
+    a Dexterity saving throw or fall prone. A creature that enters the area or ends
+    its turn there must also succeed on a Dexterity saving throw or fall prone.
+    
+    """
+    name = "Grease"
+    level = 1
+    casting_time = "1 action"
+    casting_range = "60 feet"
+    components = ('V', 'S', 'M')
+    materials = "a bit of pork rind or butter"
+    duration = "1 minute"
+    magic_school = "Conjuration"
+    classes = ('Wizard')
 
 
 class GreaterInvisibility(Spell):
@@ -3421,6 +3504,29 @@ class MelfsAcidArrow(Spell):
     duration = "Instantaneous"
     magic_school = "Evocation"
     classes = ('Wizard', )
+
+
+class Message(Spell):
+    """You point your finger toward a creature within range and whisper
+    a message. The target (and only the target) hears the message and 
+    can reply in a whisper that only you can hear. 
+
+    You can cast this spell through solid objects if you are familiar
+    with the target and know it is beyond the barrier. Magical silence,
+    1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 
+    feet of wood blocks the spell. The spell doesn’t have to follow a
+    straight line and can travel freely around corners or through openings.
+    
+    """
+    name = "Message"
+    level = 0
+    casting_time = "1 action"
+    casting_range = "120 feet"
+    components = ('V', 'S', 'M', )
+    materials = "a short piece of copper wire"
+    duration = "1 round"
+    magic_school = "Transmutation"
+    classes = ('Bard', 'Sorcerer', 'Wizard', )
 
 
 class MeteorSwarm(Spell):
