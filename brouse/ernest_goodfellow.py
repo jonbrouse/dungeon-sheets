@@ -41,10 +41,10 @@ weapons = ('quarterstaff',)
 armor = ''
 shield = ''
 equipment = (
-          """Scholar's Pack: Backpack, Book of Lore (Volo's,
-          Guide to Adventuring), Leather Bound Journal,
-          Bottle of Ink, Ink Pen, 10 Sheets of Parchment,
-          A Little Bag of Sand, Small Knife""")
+          """Mentor's Wand. Scholar's Pack: Backpack, Book 
+          of Lore (Volo's Guide to Adventuring), Leather 
+          Bound Journal, Bottle of Ink, Ink Pen, 10 Sheets 
+          of Parchment, A Little Bag of Sand, Small Knife""")
 
 # List of known spells
 spells = ('fire bolt', 'message', 'minor illusion', 'chromatic orb',
