@@ -2078,7 +2078,7 @@ class EldritchBlast(Spell):
     
     """
     name = 'Eldritch Blast'
-    level = 3
+    level = 0
     casting_time = "1 action"
     casting_range = "120 feet"
     components = ('V', 'S')
@@ -4826,3 +4826,27 @@ class Web(Spell):
     duration = "Concentration, up to 1 hour"
     magic_school = "Conjuration"
     classes = ()
+
+
+class WitchBolt(Spell):
+    """A beam of crackling, blue energy lances out toward a creature within
+    range, forming a sustained arc of lightning between you and the target.  Make a
+    ranged spell attack against that creature. On a hit, the target takes 1d12
+    lightning damage, and on each of your turns for the duration, you can use your
+    action to deal 1d12 lightning damage to the target automatically. The spell
+    ends if you use your action to do anything else. The spell also ends if the
+    target is ever outside the spell’s range or if it has total cover from you.
+    
+    When you cast this spell using a spell slot of 2nd level or
+    higher, the initial damage increases by 1d12 for each slot level above 1st.
+
+    """
+    name = "Witch Bolt"
+    level = 1
+    casting_time = "1 action"
+    casting_range = "30 feet"
+    components = ('V', 'S', 'M')
+    materials = "a twig from a tree that has been struck by lightning"
+    duration = "Concentration, up to 1 minute"
+    magic_school = "Evocation"
+    classes = ('Sorcerer', 'Warlock', 'Wizard')
