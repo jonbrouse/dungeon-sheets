@@ -21,7 +21,11 @@ charisma = 13
 
 # Proficiencies and languages
 skill_proficiencies = [
-    '',
+    'arcana',
+    'history',
+    'investigation',
+    'nature',
+    'religion',
 ]
 languages = "Common, Elvish, Gnomish, Halfling."
 
@@ -33,7 +37,7 @@ gp = 110
 pp = 0
 
 # arcane focus- mentor's wand, spell-book
-weapons = ('quarterstaff')
+weapons = ('quarterstaff',)
 armor = ''
 shield = ''
 equipment = (
